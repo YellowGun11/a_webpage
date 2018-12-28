@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="fonts/iconfont.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<header>
+    <video src="images/home.mp4" autoplay muted loop>
+    </video>
+    <div class="header_top">
+        <img src="images/logo.png" alt="">
+    </div>
+</header>
+<section>
+    <div class="bgColor"></div>
+    <nav class="nav_one clear">
+        <ul class="ul_one clear">
+            <li>HOME</li>
+            <li>
+                ACCOMMODATION
+                <ul class="accom_list bottom_list">
+                    <li>Tariffs</li>
+                    <li>Luxury Extras</li>
+                    <li>Penthouse</li>
+                    <li>2 Bedroom Family</li>
+                    <li>2 Bedroon</li>
+                    <li>1 Bedroom</li>
+                    <li>Hastings Studio</li>
+                    <li>Studio</li>
+                    <li>Overview</li>
+                </ul>
+
+            </li>
+            <li>
+                SERVICES
+                <ul class="services_list bottom_list">
+                    <li>Contact Us</li>
+                    <li>FAQ's</li>
+                    <li>Overview</li>
+                </ul></li>
+            <li>
+                SPECIAL OFFERS
+                <ul class="special_list bottom_list">
+                    <li>Gift Vouchers</li>
+                    <li>Overview</li>
+                </ul></li>
+            <li>REVIEWS</li>
+            <li>LOCATION</li>
+            <li>
+                NEWS
+                <ul class="news_list bottom_list">
+                    <li>What's On</li>
+                    <li>Overview</li>
+                </ul></li>
+            <li>
+                WEDDINGS
+                <ul class="weddings_list bottom_list">
+                    <li>Wedding Gallery</li>
+                    <li>Overview</li>
+                </ul>
+            </li>
+            <li>
+                GALLERY
+                <ul class="gallery_list bottom_list">
+                    <li>Social Media Gallery</li>
+                    <li>Overview</li>
+                </ul>
+            </li>
+        </ul>
+        <div class="number_one">07 5447 3422</div>
+        <div class="hidden_part clear">
+            <div class="nav_logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="nav_menu" onclick="openNav()">
+                <div class="nav_menu_line">
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+                <p>Menu</p>
+            </div>
+        </div>
+    </nav>
+    <div class="book_carousel clear">
+        <div class="book_left">
+            <h1>Book Online</h1>
+            <p>Book directly with us to receive Free wifi,Free secure parking,</p>
+            <p>Free baech chair and umbrellas for your use & 50% off surf</p>
+            <p>board hre</p>
+            <div class="date_box clear">
+                <div class="date_left clear">
+                    <p>Arrival</p>
+                    <img src="images/datepicker.svg" alt="">
+                </div>
+                <div class="date_right clear">
+                    <p>Departure</p>
+                    <img src="images/datepicker.svg" alt="">
+                </div>
+            </div>
+            <div class="check_btn">Check Availability</div>
+        </div>
+        <div class="carousel_right">
+            <div class="img_box">
+                <div class="img_one img_content">
+                   <div class="img_one_top">
+                       <div class="img_one_text">
+                           <p>Studio Room</p>
+                           <p>from <span>$240</span></p>
+                           <p>per night (min 2 nights)</p>
+                       </div>
+
+                   </div>
+                </div>
+                <div class="img_two img_content">
+                    <div class="img_one_top">
+                        <div class="img_one_text">
+                            <p>Luxury Extras</p>
+                            <p>from <span>$65</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="img_three img_content">
+                    <div class="img_one_top">
+                        <div class="img_one_text">
+                            <p>November Special!</p>
+                            <p><span>15% Off</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="img_four img_content">
+
+                </div>
+                <div class="left_btn">
+                    <img onclick="previousImg()" src="images/left.png" alt="">
+                </div>
+                <div class="right_btn">
+                    <img onclick="nextImg()"  src="images/right.png" alt="">
+                </div>
+                <div class="img_pot clear">
+                    <div onclick="imgSeclect(0)"></div>
+                    <div onclick="imgSeclect(1)"></div>
+                    <div onclick="imgSeclect(2)"></div>
+                    <div onclick="imgSeclect(3)"></div>
+                </div>
+            </div>
+            <div class="text_box">
+                <div class="text_one text_content">
+                    <div class="p_part">
+                        <p>"A world away from everyday stresses while being on the doorstep of everything that soothes the soul including sand, surf and gourmet food and wine."</p>
+                        <p>Serena</p>
+                    </div>
+
+                    <div class="img_part">
+                        <img src="images/logo-decor.svg" alt="">
+                    </div>
+                </div>
+                <div class="text_two text_content">
+                    <div class="p_part">
+                        <p>"I love how family friendly it is. There is no other place on Hastings Street that accommodates to families as well as Seahaven. This is why we always stay. On top of how perfect the rooms and resort is."</p>
+                        <p>Yolanda</p>
+                    </div>
+
+                    <div class="img_part">
+                        <img src="images/logo-decor.svg" alt="">
+                    </div>
+                </div>
+                <div class="text_three text_content">
+                    <div class="p_part">
+                        <p>"I love that you can wake up every morning to the sound of the waves crashing against the shore. Pure bliss!"</p>
+                        <p>Simona</p>
+                    </div>
+
+                    <div class="img_part">
+                        <img src="images/logo-decor.svg" alt="">
+                    </div>
+                </div>
+                <div class="text_four text_content">
+                    <div class="p_part">
+                        <p>"The best things about Seahaven is the location, right on the beach, the facilities, and the modern, on trend, designer feel apartments."</p>
+                        <p>Lindsay</p>
+                    </div>
+
+                    <div class="img_part">
+                        <img src="images/logo-decor.svg" alt="">
+                    </div>
+                </div>
+                <div class="text_five text_content">
+                    <div class="p_part">
+                        <p>"The thing I love most about Seahaven Noosa is that we can wake in the morning and walk straight onto the beach! The location is amazing and the views from the rooms even better."</p>
+                        <p>Kellie</p>
+                    </div>
+
+                    <div class="img_part">
+                        <img src="images/logo-decor.svg" alt="">
+                    </div>
+                </div>
+                <div class="text_six text_content">
+                    <div class="p_part">
+                        <p>"Seahaven Noosa is the perfect escape from a cold long winter in Melbourne. We love how close it is to the beach, Hastings St and Noosa Heads. So relaxing and luxurious, and perfect for holidays with our new little daughter."</p>
+                        <p>Travis</p>
+                    </div>
+
+                    <div class="img_part">
+                        <img src="images/logo-decor.svg" alt="">
+                    </div>
+                </div>
+                <div class="text_seven text_content">
+                    <div class="p_part">
+                        <p>"Falling asleep and waking up to the sound of the ocean in front of my room, it’s the perfect way to unwind on holiday."</p>
+                        <p>Helen</p>
+                    </div>
+
+                    <div class="img_part">
+                        <img src="images/logo-decor.svg" alt="">
+                    </div>
+                </div>
+                <div class="left_btn">
+                    <img onclick="previousText()" src="images/left.png" alt="">
+                </div>
+                <div class="right_btn">
+                    <img onclick="nextText()"  src="images/right.png" alt="">
+                </div>
+                <div class="text_pot clear">
+                    <div onclick="textSeclect(0)"></div>
+                    <div onclick="textSeclect(1)"></div>
+                    <div onclick="textSeclect(2)"></div>
+                    <div onclick="textSeclect(3)"></div>
+                    <div onclick="textSeclect(4)"></div>
+                    <div onclick="textSeclect(5)"></div>
+                    <div onclick="textSeclect(6)"></div>
+                </div>
+            </div>
+            <div class="rev_btn" onclick="openText()">Reviews</div>
+            <div class="pack_btn" onclick="openImg()">Packages</div>
+        </div>
+    </div>
+    <div class="big_carousel">
+        <div class="big_img_box">
+            <div class="big_img_content">
+                <img class="big_img_bg" src="images/slideshow-apartments-01.jpg" alt="">
+                <div class="big_img_top">
+                    <div class="big_img_text_box" onmouseover="moveText(0)" onmouseout="leaveText(0)">
+                        Studio Apartment
+                        <div class="big_img_move_text">Studio Apartment</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="big_img_content">
+                <img class="big_img_bg" src="images/slideshow-apartments-02.jpg" alt="">
+                <div class="big_img_top">
+                    <div class="big_img_text_box" onmouseover="moveText(1)" onmouseout="leaveText(1)">
+                        Hastings Studio Apartment
+                        <div class="big_img_move_text">Hastings Studio Apartment</div>
+                    </div>
+                </div>
+            </div>
+            <div class="big_img_content">
+                <img class="big_img_bg" src="images/slideshow-apartments-03.jpg" alt="">
+                <div class="big_img_top">
+                    <div class="big_img_text_box" onmouseover="moveText(2)" onmouseout="leaveText(2)">
+                        One Bedroom Apartment
+                        <div class="big_img_move_text">One Bedroom Apartment</div>
+                    </div>
+                </div>
+            </div>
+            <div class="big_img_content">
+                <img class="big_img_bg" src="images/slideshow-apartments-04.jpg" alt="">
+                <div class="big_img_top">
+                    <div class="big_img_text_box" onmouseover="moveText(3)" onmouseout="leaveText(3)">
+                        Two Bedroom Apartment
+                        <div class="big_img_move_text">Two Bedroom Apartment</div>
+                    </div>
+                </div>
+            </div>
+            <div class="big_img_content">
+                <img class="big_img_bg" src="images/slideshow-apartments-05.jpg" alt="">
+                <div class="big_img_top">
+                    <div class="big_img_text_box" onmouseover="moveText(4)" onmouseout="leaveText(4)">
+                        Two Bedroom Family
+                        <div class="big_img_move_text">Two Bedroom Family</div>
+                    </div>
+                </div>
+            </div>
+            <div class="big_img_content">
+                <img class="big_img_bg" src="images/slideshow-apartments-06.jpg" alt="">
+                <div class="big_img_top">
+                    <div class="big_img_text_box" onmouseover="moveText(5)" onmouseout="leaveText(5)">
+                        Penthouse Apartment
+                        <div class="big_img_move_text">Penthouse Apartment</div>
+                        <!--<p class="p_text">Studio Apartment</p>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="big_left_btn">
+            <img onclick="previousbigImg()" src="images/left.png" alt="">
+        </div>
+        <div class="big_right_btn">
+            <img onclick="nextbigImg()"  src="images/right.png" alt="">
+        </div>
+    </div>
+    <div class="absolute_part">
+        <h1>Absolute Beachfront Apartments</h1>
+        <h2>Experience the ultimate Noosa holiday at Seahaven Noosa, located with direct access to Noosa Main Beach overlooking Laguna Bay. Located on the world famous Hastings Street with its renowned restaurants, cafes and boutique shopping you can enjoy the very best of Noosa at your door. For a beachfront holiday in Noosa, the perfect place to stay and relax is Seahaven Resort overlooking the sparkling Laguna Bay.</h2>
+        <p>The resort has undergone a complete makeover, now offering a sophisticated modern atmosphere, designed to accommodate the requirements of families, couples and corporates working or holidaying in the region. The contemporary design with luxurious furnishings and natural finishes create a feeling of relaxed sophistication, serenity and understated luxury accommodation. With absolute beachfront access to Noosa's Main Beach and street access to Hastings Street, Seahaven Resort provides a range of holiday accommodation for couples and families in not only one of the best locations Noosa has to offer, but also great service.</p>
+    </div>
+    <div class="family_part">
+        <div class="top_margin"></div>
+        <div class="family_part_box">
+            <p>Friendly,family</p>
+            <p>resort with</p>
+            <p>value for</p>
+            <p>money in</p>
+            <p>Noosa</p>
+        </div>
+    </div>
+    <div class="sub_part clear">
+        <div class="sub_left">
+            <div class="sub_bg sub_bgone">
+                <div class="sub_top">
+                    <div class="sub_text">
+                        <p>Thinking of getting married in Noosa?</p>
+                        <p>Seahaven can offer a superb <strong>private</strong></p>
+                        <p><strong>beachfront</strong> wedding!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sub_bg sub_bgtwo">
+                <div class="sub_top">
+                    <div class="sub_text">
+                        <p><strong>Noosa Triathlon Multi Sports Festival</strong></p>
+                        <p> 28th – 31st october 2016</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sub_bg sub_bgthree">
+                <div class="sub_top">
+                    <div class="sub_text">
+                        <p><strong>Seahaven Noosa</strong></p>
+                        <p>is located in the heart of</p>
+                        <p>Noosa, enjoy <strong>beach front</strong> access to</p>
+                        <p>Noosa's Main Beach.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="wed_btn" onclick="subImg(0)">Weddings</div>
+            <div class="what_btn" onclick="subImg(1)">What's On</div>
+            <div class="loca_btn" onclick="subImg(2)">Location</div>
+        </div>
+        <div class="sub_right">
+            <h1>Subscribe</h1>
+            <p>Receive news, promotions and events</p>
+            <div class="sub_input">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="stay_btn">Stay Updated</div>
+            <div class="sub_agree clear">
+                <input type="checkbox">
+                <label> I agree to the <a href="#">Privacy Policy</a> of Seahaven Noosa Resort</label>
+            </div>
+        </div>
+    </div>
+    <div class="footer_box">
+        <div class="footer_one">
+            <ul class="clear">
+                <li>ACCOMMODATION</li>
+                <li>GUEST SERVICES</li>
+                <li>SPECIAL OFFERS</li>
+                <li>REVIEWS</li>
+                <li>NEWS</li>
+                <li>WEDDINGS</li>
+                <li>GALLERY</li>
+                <li>BOOK ONLINE</li>
+            </ul>
+
+        </div>
+        <div class="footer_two clear">
+            <div class="footer_two_left clear">
+                <p>
+                    <span>WHAT'S ON</span>
+                    <span>CONTACT US</span>
+                    <span>FAQ'S</span>
+                </p>
+            </div>
+            <div class="footer_two_center">
+                <img src="images/pinterest.svg" alt="">
+                <img src="images/facebook.svg" alt="">
+                <img src="images/twitter.svg" alt="">
+                <img src="images/google.svg" alt="">
+            </div>
+            <div class="footer_two_right">
+                <p>+61 7 5447 3422</p>
+                <p><span>Freecall</span> 1800 072 013</p>
+            </div>
+        </div>
+        <div class="footer_three">
+            <p>Proud sponsors of the</p>
+            <div class="footer_three_img">
+                <img src="images/breast-cancer-logo.png" alt="">
+            </div>
+            <div class="footer_three_bottom clear">
+                <p>
+                    <span>Copyright &copy; Seahaven Noosa Resort</span>
+                    <span>15 Hastings Street,Noosa Heads,QLD 4567</span>
+                    <span>Home</span>
+                    <span>Privacy Policy</span>
+                </p>
+                <img src="images/pd.svg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script src="javascript/index.js"></script>
+</body>
+</html>
